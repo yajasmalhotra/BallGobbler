@@ -1,0 +1,46 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1649044755",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Yajas Malhotra\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\mlagents-learn config/agent_config.yaml --run-id=test --env=Build/Build2/Final Project Testing V2 --num-envs=4",
+        "mlagents_version": "0.17.0",
+        "mlagents_envs_version": "0.17.0",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.8.0",
+        "end_time_seconds": "1649044758"
+    },
+    "total": 3.2489505000000003,
+    "count": 1,
+    "self": 0.2908616999999998,
+    "children": {
+        "run_training.setup": {
+            "total": 0.03997440000000019,
+            "count": 1,
+            "self": 0.03997440000000019
+        },
+        "TrainerController.start_learning": {
+            "total": 2.9181144000000003,
+            "count": 1,
+            "self": 0.0018056999999984669,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 2.9160407,
+                    "count": 1,
+                    "self": 2.9160407
+                },
+                "trainer_threads": {
+                    "total": 1.5000000015419346e-06,
+                    "count": 1,
+                    "self": 1.5000000015419346e-06
+                },
+                "TrainerController._save_model": {
+                    "total": 0.0002665000000003914,
+                    "count": 1,
+                    "self": 0.0002665000000003914
+                }
+            }
+        }
+    }
+}
